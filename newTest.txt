@@ -254,7 +254,7 @@ htmlFile << "																<label class='form-check-label' for='p1_1'>Recopila
 htmlFile << "															</div>" << endl;
 htmlFile << "														</div>" << endl;
 htmlFile << "													</div>" << endl;
-////////////////////////////////////////////////////////////////////////
+//1/////////////////////////////////////////////////////////////////////
 htmlFile << "													<div class='form-check'>" << endl;
 htmlFile << "															<div class='row mrg-top-30'>" << endl;
 htmlFile << "																<div class='col-1 align-self-center'>" << endl;
@@ -402,6 +402,7 @@ htmlFile << "												</div>" << endl;
 htmlFile << "											</div>" << endl;
 htmlFile << "										</div>" << endl;
 htmlFile << "" << endl;
+//2/////////////////////////////////////////////////////////////////////
 htmlFile << "										<div class='row text-center'>" << endl;
 htmlFile << "											<div class='col'>" << endl;
 htmlFile << "												<div class='mrg-top-40'>" << endl;

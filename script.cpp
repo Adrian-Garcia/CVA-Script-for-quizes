@@ -54,6 +54,76 @@ int main() {
 					cout << question.phrases[i] << endl;
 				}
 
+				htmlFile << "										<div class='row text-center'>" << endl;
+				htmlFile << "											<div class='col'>" << endl;
+				htmlFile << "												<div class='mrg-top-40'>" << endl;
+				htmlFile << "													<a href='modulo1-origen-plagas.html' class='btn btn-info no-mrg-btm'>Regresar</a>" << endl;
+				htmlFile << "												</div>" << endl;
+				htmlFile << "											</div>" << endl;
+				htmlFile << "										</div>" << endl;
+				htmlFile << "										" << endl;
+				htmlFile << "								</form>" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "							</div>" << endl;
+				htmlFile << "					  </div>" << endl;
+				htmlFile << "					  <!-- Content Wrapper END -->" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "					  <!-- Footer START -->" << endl;
+				htmlFile << "					<footer class='content-footer'>" << endl;
+				htmlFile << "							<div class='footer'>" << endl;
+				htmlFile << "								<div class='row'>" << endl;
+				htmlFile << "									<div class='col-8'>" << endl;
+				htmlFile << "										<p>Se prohíbe la reproducción total o parcial sin previo y expreso consentimiento por escrito.</p>" << endl;
+				htmlFile << "										<p>D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México, 2019.</p>" << endl;
+				htmlFile << "									</div>  " << endl;
+				htmlFile << "									<div class='col-4 center align-self-center'>" << endl;
+				htmlFile << "										<a href='http://videolabtec.itesm.mx/aviso-legal' target='_blank'>Aviso Legal</a>" << endl;
+				htmlFile << "										<span><b>|</b></span>" << endl;
+				htmlFile << "										<a href='https://tec.mx/es/avisos-de-privacidad' target='_blank'>Aviso de Privacidad</a>" << endl;
+				htmlFile << "										<span><b>|</b></span>" << endl;
+				htmlFile << "										<a href='../creditos.html'>Créditos</a>" << endl;
+				htmlFile << "									</div>" << endl;
+				htmlFile << "								</div>" << endl;
+				htmlFile << "							</div>" << endl;
+				htmlFile << "						</footer>" << endl;
+				htmlFile << "						<!-- Footer END -->" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "				  </div>" << endl;
+				htmlFile << "				  <!-- Page Container END -->" << endl;
+				htmlFile << "				</div>" << endl;
+				htmlFile << "		</div>" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "		<!-- build:js assets/js/vendor.js -->" << endl;
+				htmlFile << "		<!-- plugins js -->" << endl;
+				htmlFile << "		<script src='../../assets/vendors/jquery/dist/jquery.min.js'></script>" << endl;
+				htmlFile << "		<script src='../../assets/js/recycled/navigationbar.js'></script>" << endl;
+				htmlFile << "		<script src='../../assets/vendors/popper.js/dist/umd/popper.min.js'></script>" << endl;
+				htmlFile << "		<script src='../../assets/vendors/bootstrap/dist/js/bootstrap.js'></script>" << endl;
+				htmlFile << "	  <script src='../../assets/vendors/PACE/pace.min.js'></script>" << endl;
+				htmlFile << "		<script src='../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js'></script>" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "		<script src='../../assets/js/progressbar.js'></script>" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "		<!-- endbuild -->" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "		<!-- build:js assets/js/app.min.js -->" << endl;
+				htmlFile << "		<!-- core js -->" << endl;
+				htmlFile << "		<script src='../../assets/js/app.js'></script>" << endl;
+				htmlFile << "		<!-- <script src='../../assets/js/quizes/quiz-origen-plagas.js'></script> -->" << endl;
+				htmlFile << "		<script src='../../assets/js/quizes/" << jsFileName << "'></script>" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "		<script src='../../assets/js/progreso.js'></script>" << endl;
+				htmlFile << "		<!--Aqui se pone el porcentaje completado,se puedo pasar como una division de (numero de paginas/total de paginas)-->" << endl;
+				htmlFile << "		<script type='text/javascript'>show(.5)</script>" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "		<!-- endbuild -->" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "		<!-- Insert your dependencies here -->" << endl;
+				htmlFile << "" << endl;
+				htmlFile << "	</body>" << endl;
+				htmlFile << "</html>" << endl;
+
+
 				questions = false;
 				question.text = "";
 				question.phrases.clear();
@@ -126,8 +196,8 @@ int main() {
 			htmlFile << "					<div class='side-nav-inner'>" << endl;
 			htmlFile << "						<div class='side-nav-logo'>" << endl;
 			htmlFile << "							<a href='http://www.centroscomunitariosdeaprendizaje.org.mx/' target='_blank'>" << endl;
-			htmlFile << "								<div class='logo logo-dark' style='background-image: url('../../assets/images/logo/logo.png')'></div>" << endl;
-			htmlFile << "								<div class='logo logo-white' style='background-image: url('../../assets/images/logo/logo.png')'></div>" << endl;
+			htmlFile << "								<div class='logo logo-dark' style='background-image: url(" << '"' << "../../assets/images/logo/logo.png" << '"' << ")'></div>" << endl;
+			htmlFile << "								<div class='logo logo-white' style='background-image: url(" << '"' << "../../assets/images/logo/logo.png" << '"' << ")'></div>" << endl;
 			htmlFile << "							</a>" << endl;
 			htmlFile << "							<div class='mobile-toggle side-nav-toggle'>" << endl;
 			htmlFile << "								<a href=''>" << endl;
@@ -344,8 +414,9 @@ int main() {
 			question.phrases.push_back(line);
 		}
 
-		// End of questions
+		// End of question
 		else if (questions && line == "") {
+			
 			htmlFile << "										<h3 class='feed-subtitle'>" << question.text << "</h3>" << endl;
 			htmlFile << "										<div class='feed-body form-group pregunta_1'>" << endl;
 			htmlFile << "											<div class='row'>" << endl;
@@ -363,6 +434,18 @@ int main() {
 				htmlFile << "														</div>" << endl;
 				htmlFile << "													</div>" << endl;
 			}
+
+			// Not sure
+			htmlFile << "												</div>" << endl;
+			htmlFile << "											</div>" << endl;
+			// Not sure
+			htmlFile << "											<div class='row mrg-top-30'>" << endl;
+			htmlFile << "												<div class='col-sm-12'>" << endl;
+			htmlFile << "													<input id='check" << numQuestion << "' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_" << numQuestion << "' value='Verificar'>" << endl;
+			htmlFile << "												</div>" << endl;
+			htmlFile << "											</div>" << endl;
+			htmlFile << "										</div>" << endl;
+			htmlFile << "" << endl;
 
 			numQuestion++;
 			itteration++;

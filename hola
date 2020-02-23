@@ -34,8 +34,8 @@
 					<div class='side-nav-inner'>
 						<div class='side-nav-logo'>
 							<a href='http://www.centroscomunitariosdeaprendizaje.org.mx/' target='_blank'>
-								<div class='logo logo-dark' style='background-image: url('../../assets/images/logo/logo.png')'></div>
-								<div class='logo logo-white' style='background-image: url('../../assets/images/logo/logo.png')'></div>
+								<div class='logo logo-dark' style='background-image: url("../../assets/images/logo/logo.png")'></div>
+								<div class='logo logo-white' style='background-image: url("../../assets/images/logo/logo.png")'></div>
 							</a>
 							<div class='mobile-toggle side-nav-toggle'>
 								<a href=''>
@@ -225,3 +225,189 @@
 				</div>
 				<!-- Side Nav END -->
 
+				<!-- Page Container START -->
+				<div class='page-container'>
+					
+					<!-- Header START -->
+					<div class='header navbar'></div>
+					<!-- Header END -->
+
+					  <!-- Content Wrapper START -->
+					  <div class='main-content'>
+							<div class='container-fluid'>
+
+								<!-- Your content goes here -->								
+								<form class='card widget-feed col-md-8'>
+										<h1 class='feed-title card-title'>Quiz 1</h1>
+
+										<h3 class='feed-subtitle'>1. aaa</h3>
+										<div class='feed-body form-group pregunta_1'>
+											<div class='row'>
+												<div class='col-sm-12'>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>a</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>e</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>i</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>o</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='2'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>. bbb</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>b</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>w</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>d</label>
+															</div>
+														</div>
+													</div>
+													<div class='form-check'>
+														<div class='row mrg-top-30'>
+															<div class='col-1 align-self-center'>
+																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='k'>
+															</div>
+															<div class='col-11'>
+																<label class='form-check-label' for='p1_1'>l</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class='row mrg-top-30'>
+												<div class='col-sm-12'>
+													<input id='check2' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_2' value='Verificar'>
+												</div>
+											</div>
+										</div>
+
+										<div class='row text-center'>
+											<div class='col'>
+												<div class='mrg-top-40'>
+													<a href='modulo1-origen-plagas.html' class='btn btn-info no-mrg-btm'>Regresar</a>
+												</div>
+											</div>
+										</div>
+										
+								</form>
+
+							</div>
+					  </div>
+					  <!-- Content Wrapper END -->
+
+					  <!-- Footer START -->
+					<footer class='content-footer'>
+							<div class='footer'>
+								<div class='row'>
+									<div class='col-8'>
+										<p>Se prohíbe la reproducción total o parcial sin previo y expreso consentimiento por escrito.</p>
+										<p>D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México, 2019.</p>
+									</div>  
+									<div class='col-4 center align-self-center'>
+										<a href='http://videolabtec.itesm.mx/aviso-legal' target='_blank'>Aviso Legal</a>
+										<span><b>|</b></span>
+										<a href='https://tec.mx/es/avisos-de-privacidad' target='_blank'>Aviso de Privacidad</a>
+										<span><b>|</b></span>
+										<a href='../creditos.html'>Créditos</a>
+									</div>
+								</div>
+							</div>
+						</footer>
+						<!-- Footer END -->
+
+				  </div>
+				  <!-- Page Container END -->
+				</div>
+		</div>
+
+		<!-- build:js assets/js/vendor.js -->
+		<!-- plugins js -->
+		<script src='../../assets/vendors/jquery/dist/jquery.min.js'></script>
+		<script src='../../assets/js/recycled/navigationbar.js'></script>
+		<script src='../../assets/vendors/popper.js/dist/umd/popper.min.js'></script>
+		<script src='../../assets/vendors/bootstrap/dist/js/bootstrap.js'></script>
+	  <script src='../../assets/vendors/PACE/pace.min.js'></script>
+		<script src='../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js'></script>
+
+		<script src='../../assets/js/progressbar.js'></script>
+
+		<!-- endbuild -->
+
+		<!-- build:js assets/js/app.min.js -->
+		<!-- core js -->
+		<script src='../../assets/js/app.js'></script>
+		<!-- <script src='../../assets/js/quizes/quiz-origen-plagas.js'></script> -->
+		<script src='../../assets/js/quizes/'></script>
+
+		<script src='../../assets/js/progreso.js'></script>
+		<!--Aqui se pone el porcentaje completado,se puedo pasar como una division de (numero de paginas/total de paginas)-->
+		<script type='text/javascript'>show(.5)</script>
+
+		<!-- endbuild -->
+
+		<!-- Insert your dependencies here -->
+
+	</body>
+</html>
