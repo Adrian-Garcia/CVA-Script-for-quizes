@@ -1,0 +1,15 @@
+jsFile << "$('#check1').on('click', function() {" << endl;
+jsFile << "" << endl;
+jsFile << "	let responses = $('.quest1');" << endl;
+jsFile << "" << endl;
+jsFile << "	for (let i=0; i<responses.length; i++) {" << endl;
+jsFile << "" << endl;		
+jsFile << "		if (responses[i].checked && responses[i].value == 'correct') {" << endl;
+jsFile << "			alert('¡Correcto!');" << endl;
+jsFile << "		}" << endl;
+jsFile << "" << endl;
+jsFile << "		else if (responses[i].checked) {" << endl;
+jsFile << "			alert('Incorrecto');" << endl;
+jsFile << "		}" << endl;
+jsFile << "	}" << endl;
+jsFile << "});" << endl;

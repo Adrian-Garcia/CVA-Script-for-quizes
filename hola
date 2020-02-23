@@ -402,7 +402,7 @@
 		<!-- core js -->
 		<script src='../../assets/js/app.js'></script>
 		<!-- <script src='../../assets/js/quizes/quiz-origen-plagas.js'></script> -->
-		<script src='../../assets/js/quizes/'></script>
+		<script src='../../assets/js/quizes/adios'></script>
 
 		<script src='../../assets/js/progreso.js'></script>
 		<!--Aqui se pone el porcentaje completado,se puedo pasar como una division de (numero de paginas/total de paginas)-->

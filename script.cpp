@@ -43,8 +43,6 @@ int main() {
 
 			questions = false;
 			newFile = true;
-			htmlFileName = "";
-			jsFileName = "";
 
 			if (itteration > 0) {
 
@@ -128,6 +126,8 @@ int main() {
 				question.text = "";
 				question.phrases.clear();
 				numQuestion = 0;
+				htmlFileName = "";
+				jsFileName = "";
 
 				htmlFile.close();
 				jsFile.close();
@@ -446,6 +446,24 @@ int main() {
 			htmlFile << "											</div>" << endl;
 			htmlFile << "										</div>" << endl;
 			htmlFile << "" << endl;
+
+			jsFile << "$('#check" << numQuestion << "').on('click', function() {" << endl;
+			jsFile << "" << endl;
+			jsFile << "	let responses = $('.quest" << numQuestion << "');" << endl;
+			jsFile << "" << endl;
+			jsFile << "	for (let i=0; i<responses.length; i++) {" << endl;
+			jsFile << "" << endl;
+			jsFile << "		if (responses[i].checked && responses[i].value == '1') {" << endl;
+			jsFile << "			alert('¡Correcto!');" << endl;
+			jsFile << "		}" << endl;
+			jsFile << "" << endl;
+			jsFile << "		else if (responses[i].checked) {" << endl;
+			jsFile << "			alert('Incorrecto');" << endl;
+			jsFile << "		}" << endl;
+			jsFile << "	}" << endl;
+			jsFile << "});" << endl;
+			jsFile << "" << endl;
+
 
 			numQuestion++;
 			itteration++;
