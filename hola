@@ -247,7 +247,7 @@
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+																<input class='quest0' type='radio' name='respuesta' id='p1_1' value='j'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>a</label>
@@ -257,7 +257,7 @@
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+																<input class='quest0' type='radio' name='respuesta' id='p1_1' value='j'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>e</label>
@@ -267,7 +267,7 @@
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+																<input class='quest0' type='radio' name='respuesta' id='p1_1' value='j'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>i</label>
@@ -277,27 +277,30 @@
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+																<input class='quest0' type='radio' name='respuesta' id='p1_1' value='j'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>o</label>
 															</div>
 														</div>
 													</div>
+												</div>
+											</div>
+											<div class='row mrg-top-30'>
+												<div class='col-sm-12'>
+													<input id='check0' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_0' value='Verificar'>
+												</div>
+											</div>
+										</div>
+
+										<h3 class='feed-subtitle'>2. bbb</h3>
+										<div class='feed-body form-group pregunta_1'>
+											<div class='row'>
+												<div class='col-sm-12'>
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='2'>
-															</div>
-															<div class='col-11'>
-																<label class='form-check-label' for='p1_1'>. bbb</label>
-															</div>
-														</div>
-													</div>
-													<div class='form-check'>
-														<div class='row mrg-top-30'>
-															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+																<input class='quest1' type='radio' name='respuesta' id='p1_1' value='j'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>b</label>
@@ -307,7 +310,7 @@
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+																<input class='quest1' type='radio' name='respuesta' id='p1_1' value='j'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>w</label>
@@ -317,7 +320,7 @@
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='j'>
+																<input class='quest1' type='radio' name='respuesta' id='p1_1' value='j'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>d</label>
@@ -327,7 +330,7 @@
 													<div class='form-check'>
 														<div class='row mrg-top-30'>
 															<div class='col-1 align-self-center'>
-																<input class='quest2' type='radio' name='respuesta' id='p1_1' value='k'>
+																<input class='quest1' type='radio' name='respuesta' id='p1_1' value='k'>
 															</div>
 															<div class='col-11'>
 																<label class='form-check-label' for='p1_1'>l</label>
@@ -338,7 +341,7 @@
 											</div>
 											<div class='row mrg-top-30'>
 												<div class='col-sm-12'>
-													<input id='check2' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_2' value='Verificar'>
+													<input id='check1' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_1' value='Verificar'>
 												</div>
 											</div>
 										</div>

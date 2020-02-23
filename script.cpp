@@ -449,10 +449,14 @@ int main() {
 
 			numQuestion++;
 			itteration++;
+			question.text = "";
+			question.phrases.clear();
 		}
 	}
 
 	inputFile.close();
+	htmlFile.close();
+	jsFile.close();
 
 	return 0;
 }
