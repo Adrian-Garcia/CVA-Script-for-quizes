@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+\t<head>
+\t\t<meta charset='utf-8'>
+\t\t<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no'>
+\t\t<title>Actividad de repaso | CVA - Centro Virtual de Aprendizaje</title>
+
+\t\t<!-- Favicon -->
+\t\t<link rel='shortcut icon' href='../../assets/images/logo/favicon.png'>
+
+\t\t<!-- plugins css -->
+\t\t<link rel='stylesheet' href='../../assets/vendors/bootstrap/dist/css/bootstrap.css' />
+\t\t<link rel='stylesheet' href='../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css' />
+\t\t<link rel='stylesheet' href='../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css' />
+
+\t\t<!-- page plugins css -->
+
+\t\t<!-- core css -->
+\t\t<link href='../../assets/css/ei-icon.css' rel='stylesheet'>
+\t\t<link href='../../assets/css/themify-icons.css' rel='stylesheet'>
+\t\t<link href='../../assets/css/font-awesome.min.css' rel='stylesheet'>
+\t\t<link href='../../assets/css/animate.min.css' rel='stylesheet'>
+\t\t<link href='../../assets/css/app.css' rel='stylesheet'>
+\t\t<link href='../../assets/css/progress.css' rel='stylesheet'>
+\t\t<link href='../../assets/css/progreso.css' rel='stylesheet'>
+
+\t</head>
+
+\t<body class='header-info side-nav-dark'>
+\t\t<div class='app'>
+\t\t\t<div class='layout'>
+\t\t\t\t<!-- Side Nav START -->
+\t\t\t\t<div class='side-nav' id='sideNav'>
+\t\t\t\t\t<div class='side-nav-inner'>
+\t\t\t\t\t\t<div class='side-nav-logo'>
+\t\t\t\t\t\t\t<a href='http://www.centroscomunitariosdeaprendizaje.org.mx/' target='_blank'>
+\t\t\t\t\t\t\t\t<div class='logo logo-dark' style='background-image: url('../../assets/images/logo/logo.png')'></div>
+\t\t\t\t\t\t\t\t<div class='logo logo-white' style='background-image: url('../../assets/images/logo/logo.png')'></div>
+\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t<div class='mobile-toggle side-nav-toggle'>
+\t\t\t\t\t\t\t\t<a href=''>
+\t\t\t\t\t\t\t\t\t<i class='ti-arrow-circle-left'></i>
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<!--Inician contenidos laterales-->
+\t\t\t\t\t\t<ul class='side-nav-menu scrollable'>
+\t\t\t\t\t\t\t<li class='nav-item active'>
+\t\t\t\t\t\t\t\t<a class='mrg-top-30' href='../../index.html'>
+\t\t\t\t\t\t\t\t\t<span class='icon-holder'>
+\t\t\t\t\t\t\t\t\t\t<i class='ti-home'></i>
+\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t<span class='title'>Inicio</span>
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class='nav-item active'>
+\t\t\t\t\t\t\t\t<a href='../introduccion.html'>
+\t\t\t\t\t\t\t\t\t<span class='icon-holder'>
+\t\t\t\t\t\t\t\t\t\t<i class='ei-foggy'></i>
+\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t<span class='title'>Introducción</span>
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>  
+\t\t\t\t\t\t\t<li class='nav-item dropdown'>
+\t\t\t\t\t\t\t\t<a class='dropdown-toggle' href='javascript:void(0);'>
+\t\t\t\t\t\t\t\t\t<span class='icon-holder'>
+\t\t\t\t\t\t\t\t\t\t<i class='ti-agenda'></i>
+\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t<span class='title'>Temas</span>
+\t\t\t\t\t\t\t\t\t<span class='arrow'>
+\t\t\t\t\t\t\t\t\t\t<i class='ti-angle-right'></i>
+\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t\t<ul class='dropdown-menu'>
+\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t<a href='../temario-general.html' class='side-index-general'>Temario General</a>
+\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t<!-- Tema 1 -->
+\t\t\t\t\t\t\t\t\t<li class='nav-item dropdown'>
+\t\t\t\t\t\t\t\t\t\t<a class='dropdown-toggle' href='javascript:void(0);'>
+\t\t\t\t\t\t\t\t\t\t\t<span class='title side-index-general'>Tema 1: Control <br>biológico</span>
+\t\t\t\t\t\t\t\t\t\t\t<span class='arrow'>
+\t\t\t\t\t\t\t\t\t\t\t\t<i class='ti-angle-right'></i>
+\t\t\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t\t\t\t<ul class='dropdown-menu'>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema1/tema1-origen-plagas.html' class='side-index-general'>Tema 1.1: Origen de las plagas</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema1/tema1-control-biologico.html' class='side-index-general'>Tema 1.2: Control biológico</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema1/tema1-enemigos-naturales-plagas.html' class='side-index-general'>Tema 1.3: Enemigos naturales de las plagas</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema1/tema1-control-biologico-ejemplo-mexico.html' class='side-index-general'>Tema 1.4: Ejemplo en México de control biológico</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema1/tema1-consideraciones-control-biologico.html' class='side-index-general'>Tema 1.5: Consideraciones del control biológico</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema1/tema1-ejemplo-agentes-control-biologico.html' class='side-index-general'>Tema 1.6: Ejemplos de agentes de control biológico</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema1/tema1-reglas-uso-parasitoides-depredadores.html' class='side-index-general'>Tema 1.7: Reglas para el uso de parasitoides y depredadores</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t\t\t\t</li>
+
+\t\t\t\t\t\t\t\t\t<!-- Tema 2 -->
+\t\t\t\t\t\t\t\t\t<li class='nav-item dropdown'>
+\t\t\t\t\t\t\t\t\t\t<a class='dropdown-toggle' href='javascript:void(0);'>
+\t\t\t\t\t\t\t\t\t\t\t<span class='title side-index-general'>Tema 2: Enemigos <br>de los bosques</span>
+\t\t\t\t\t\t\t\t\t\t\t<span class='arrow'>
+\t\t\t\t\t\t\t\t\t\t\t\t<i class='ti-angle-right'></i>
+\t\t\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t\t\t\t<ul class='dropdown-menu'>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema2/tema2-plagas.html' class='side-index-general'>Tema 2.1: Las plagas</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema2/tema2-incendios-forestales.html' class='side-index-general'>Tema 2.2: Incendios forestales</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema2/tema2-prevencion-incendios.html' class='side-index-general'>Tema 2.3: Prevención de incendios</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t\t\t\t</li>
+
+\t\t\t\t\t\t\t\t\t<!-- Tema 3 -->
+\t\t\t\t\t\t\t\t\t<li class='nav-item dropdown'>
+\t\t\t\t\t\t\t\t\t\t<a class='dropdown-toggle' href='javascript:void(0);'>
+\t\t\t\t\t\t\t\t\t\t\t<span class='title side-index-general'>Tema 3: <br>Reforestación</span>
+\t\t\t\t\t\t\t\t\t\t\t<span class='arrow'>
+\t\t\t\t\t\t\t\t\t\t\t\t<i class='ti-angle-right'></i>
+\t\t\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t\t\t\t<ul class='dropdown-menu'>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-bosque-y-cuidados.html' class='side-index-general'>Tema 3.1: El bosque y sus cuidados</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-semillero-almacigo.html' class='side-index-general'>Tema 3.2: El semillero de Almácigo</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-guia-establecimiento-reforestacion.html' class='side-index-general'>Tema 3.3: Guía para el establecimiento y cuidados de una reforestación</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-caracteristicas-suelo-clima.html' class='side-index-general'>Tema 3.4: Características del suelo y el clima</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-eucalipto.html' class='side-index-general'>Tema 3.5: Eucalipto, ejemplo de un árbol ideal para reforestar</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-otros-beneficios-eucalipto.html' class='side-index-general'>Tema 3.6: Otros beneficios de reforestar con eucalipto</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-agave-guanajuato.html' class='side-index-general'>Tema 3.7: Agave en el estado de Guanajuato</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema3/tema3-agave-perspectivas.html' class='side-index-general'>Tema 3.8: Agave en Guanajuato: Perspectivas</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t\t\t\t</li>
+
+\t\t\t\t\t\t\t\t\t<!-- Tema 4 -->
+\t\t\t\t\t\t\t\t\t<li class='nav-item dropdown'>
+\t\t\t\t\t\t\t\t\t\t<a class='dropdown-toggle' href='javascript:void(0);'>
+\t\t\t\t\t\t\t\t\t\t\t<span class='title side-index-general'>Tema 4: Utilización racional</span>
+\t\t\t\t\t\t\t\t\t\t\t<span class='arrow'>
+\t\t\t\t\t\t\t\t\t\t\t\t<i class='ti-angle-right'></i>
+\t\t\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t\t\t\t<ul class='dropdown-menu'>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema4/tema4-barreras-rompeviento.html' class='side-index-general'>Tema 4.1: Barreras rompeviento</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema4/tema4-errores-explotar-bosques.html' class='side-index-general'>Tema 4.2: Errores al explotar los bosques</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema4/tema4-razones-irracionales.html' class='side-index-general'>Tema 4.3: Razones irracionales para explotar los bosques</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema4/tema4-acciones-cuidado-bosques.html' class='side-index-general'>Tema 4.4: Acciones para cuidar los bosques</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema4/tema4-cuidados-adicionales-bosques.html' class='side-index-general'>Tema 4.5: Cuidados adicionales de los bosques</a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t\t\t\t\t\t<a href='../tema4/tema4-reflexion.html' class='side-index-general'>Tema 4.6: Reflexión final </a>
+\t\t\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t\t</ul>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class='nav-item active'>
+\t\t\t\t\t\t\t\t<a href='../politicas.html'>
+\t\t\t\t\t\t\t\t\t<span class='icon-holder'>
+\t\t\t\t\t\t\t\t\t\t<i class='ei-human-resources'></i>
+\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t<span class='title'>Políticas</span>
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class='nav-item active'>
+\t\t\t\t\t\t\t\t<a href='../contacto.html'>
+\t\t\t\t\t\t\t\t\t<span class='icon-holder'>
+\t\t\t\t\t\t\t\t\t\t<i class='ei-phone-call'></i>
+\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t<span class='title'>Contáctanos</span>
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li class='nav-item active'>
+\t\t\t\t\t\t\t\t<a href='../creditos.html'>
+\t\t\t\t\t\t\t\t\t<span class='icon-holder'>
+\t\t\t\t\t\t\t\t\t\t<i class='ei-clapperboard'></i>
+\t\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t\t\t<span class='title'>Créditos</span>
+\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t</ul>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t\t<!-- Side Nav END -->
+
+\t\t\t\t<!-- Page Container START -->
+\t\t\t\t<div class='page-container'>
+\t\t\t\t\t
+\t\t\t\t\t<!-- Header START -->
+\t\t\t\t\t<div class='header navbar'></div>
+\t\t\t\t\t<!-- Header END -->
+
+\t\t\t\t\t  <!-- Content Wrapper START -->
+\t\t\t\t\t  <div class='main-content'>
+\t\t\t\t\t\t\t<div class='container-fluid'>
+
+\t\t\t\t\t\t\t\t<!-- Your content goes here -->\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t<form class='card widget-feed col-md-8'>
+\t\t\t\t\t\t\t\t\t\t<h1 class='feed-title card-title'>Quiz 1</h1>
+
+\t\t\t\t\t\t\t\t\t\t<h3 class='feed-subtitle'>1. La estadística trata acerca de la:</h3>
+\t\t\t\t\t\t\t\t\t\t<div class='feed-body form-group pregunta_1'>
+\t\t\t\t\t\t\t\t\t\t\t<div class='row'>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-sm-12'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest1' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Recopilación de datos.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest1' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Descripción de datos.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest1' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Obtención de conclusiones de los datos.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest1' type='radio' name='respuesta' id='p1_1' value='correct'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Todas las anteriores.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-sm-12'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<input id='check1' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_1' value='Verificar'>
+\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t</div>
+
+\t\t\t\t\t\t\t\t\t\t<div class='feed-body form-group pregunta_2'>
+\t\t\t\t\t\t\t\t\t\t\t<h3>2. ¿Por qué piensa que buena parte de los datos sobre educación se recopilan mediante muestreo en lugar de censos?</h3>
+\t\t\t\t\t\t\t\t\t\t\t<div class='row'>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-sm-12'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest2' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Es menos costoso obtener una muestra que un censo.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest2' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>La inferencia permite a los investigadores obtener información suficientemente precisa a partir de una muestra.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest2' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>A veces es muy difícil tener acceso a una población.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest2' type='radio' name='respuesta' id='p1_1' value='correct'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Todas las anteriores.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-sm-12'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<input id='check2' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_2' value='Verificar'> 
+\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t</div>
+
+
+\t\t\t\t\t\t\t\t\t\t<div class='feed-body form-group pregunta_3'>
+\t\t\t\t\t\t\t\t\t\t\t<h3>3. Desde una perspectiva estadística, ¿qué es una población?</h3>
+\t\t\t\t\t\t\t\t\t\t\t<div class='row'>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-sm-12'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest3' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Los habitantes de un país.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest3' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Una parte de los objetos (o sujetos) sobre los cuales se desea obtener información.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest3' type='radio' name='respuesta' id='p1_1' value='correct'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>El conjunto de todos los objetos (o sujetos) acerca de los cuales se desea obtener información.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='form-check'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-1 align-self-center'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input class='quest3' type='radio' name='respuesta' id='p1_1' value='incorrect'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-11'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<label class='form-check-label' for='p1_1'>Todas las anteriores.</label>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class='row mrg-top-30'>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class='col-sm-12'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<input id='check3' type='button' class='btn btn-primary btn-rounded pull-right' name='pregunta_3' value='Verificar'> 
+\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t</div>
+
+\t\t\t\t\t\t\t\t\t\t<div class='row text-center'>
+\t\t\t\t\t\t\t\t\t\t\t<div class='col'>
+\t\t\t\t\t\t\t\t\t\t\t\t<div class='mrg-top-40'>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<a href='modulo1-origen-plagas.html' class='btn btn-info no-mrg-btm'>Regresar</a>
+\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t</form>
+
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t  </div>
+\t\t\t\t\t  <!-- Content Wrapper END -->
+
+\t\t\t\t\t  <!-- Footer START -->
+\t\t\t\t\t<footer class='content-footer'>
+\t\t\t\t\t\t\t<div class='footer'>
+\t\t\t\t\t\t\t\t<div class='row'>
+\t\t\t\t\t\t\t\t\t<div class='col-8'>
+\t\t\t\t\t\t\t\t\t\t<p>Se prohíbe la reproducción total o parcial sin previo y expreso consentimiento por escrito.</p>
+\t\t\t\t\t\t\t\t\t\t<p>D.R.© Instituto Tecnológico y de Estudios Superiores de Monterrey, México, 2019.</p>
+\t\t\t\t\t\t\t\t\t</div>  
+\t\t\t\t\t\t\t\t\t<div class='col-4 center align-self-center'>
+\t\t\t\t\t\t\t\t\t\t<a href='http://videolabtec.itesm.mx/aviso-legal' target='_blank'>Aviso Legal</a>
+\t\t\t\t\t\t\t\t\t\t<span><b>|</b></span>
+\t\t\t\t\t\t\t\t\t\t<a href='https://tec.mx/es/avisos-de-privacidad' target='_blank'>Aviso de Privacidad</a>
+\t\t\t\t\t\t\t\t\t\t<span><b>|</b></span>
+\t\t\t\t\t\t\t\t\t\t<a href='../creditos.html'>Créditos</a>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</footer>
+\t\t\t\t\t\t<!-- Footer END -->
+
+\t\t\t\t  </div>
+\t\t\t\t  <!-- Page Container END -->
+\t\t\t\t</div>
+\t\t</div>
+
+\t\t<!-- build:js assets/js/vendor.js -->
+\t\t<!-- plugins js -->
+\t\t<script src='../../assets/vendors/jquery/dist/jquery.min.js'></script>
+\t\t<script src='../../assets/js/recycled/navigationbar.js'></script>
+\t\t<script src='../../assets/vendors/popper.js/dist/umd/popper.min.js'></script>
+\t\t<script src='../../assets/vendors/bootstrap/dist/js/bootstrap.js'></script>
+\t  <script src='../../assets/vendors/PACE/pace.min.js'></script>
+\t\t<script src='../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js'></script>
+
+\t\t<script src='../../assets/js/progressbar.js'></script>
+
+\t\t<!-- endbuild -->
+
+\t\t<!-- build:js assets/js/app.min.js -->
+\t\t<!-- core js -->
+\t\t<script src='../../assets/js/app.js'></script>
+\t\t<!-- <script src='../../assets/js/quizes/quiz-origen-plagas.js'></script> -->
+\t\t<script src='../../assets/js/quizes/quiz1-1.js'></script>
+
+\t\t<script src='../../assets/js/progreso.js'></script>
+\t\t<!--Aqui se pone el porcentaje completado,se puedo pasar como una division de (numero de paginas/total de paginas)-->
+\t\t<script type='text/javascript'>show(.5)</script>
+
+\t\t<!-- endbuild -->
+
+\t\t<!-- Insert your dependencies here -->
+
+\t</body>
+</html>

@@ -1,0 +1,39 @@
+-
+actividad2-1.html
+quiz2-1.js
+$
+1. ¿Cuáles de las siguientes afirmaciones son verdaderas?
+1Una variable consiste en los objetos y sujetos que tratamos de describir y explicar en la investigación educacional.
+0La velocidad de la luz es un ejemplo de una variable.
+0Una medición es “confiable” si mide lo que se desea medir.
+0Todas las anteriores.
+
+2. ¿Cuál de las siguientes variables se puede medir usando una escala de intervalos?
+0Nombres de países.
+0Tipo de escuela.
+1Calificaciones de pruebas.
+0Nivel de educación de maestros (es decir, secundario, superior, etc.)
+
+3. ¿Cuál de las siguientes afirmaciones describe mejor la relación entre una variable dependiente y una independiente?
+0La variable dependiente explica la variable independiente.
+1La variable independiente explica la variable dependiente.
+0Las variables dependiente e independiente son causadas por una tercera variable en común.
+0Ninguna de las anteriores.
+
+-
+hola
+adios
+$
+1. aaa
+ja
+je
+ji
+jo
+
+2. bbb
+jb
+jw
+jd
+kl
+
+-
